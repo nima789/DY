@@ -1,4 +1,4 @@
-apt update
+apt update -y
 
 apt install -y wget curl net-tools openssh-server git perl moreutils
 
