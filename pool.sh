@@ -11,7 +11,7 @@ function Update() {
    pkg install -y git curl wget
 }
 function ProjectDeployment() {
-   git clone -b pool "https://ghproxy.com/https://github.com/nima789/DY.git $POOL
+   git clone -b pool https://ghproxy.com/https://github.com/nima789/DY.git $POOL
    
    wget -P $POOL https://www.huahuayu.ml/pool/proxypool
 
