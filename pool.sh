@@ -1,4 +1,4 @@
-POOL=/data/data/com.termux/files/home
+POOL=/data/data/com.termux/files/home/pool
 
 function Installation() {
    Update
@@ -11,11 +11,11 @@ function Update() {
    pkg install -y git curl wget
 }
 function ProjectDeployment() {
-   git clone -b pool https://github.com/nima789/DY.git &POOL/pool
+   git clone -b pool https://github.com/nima789/DY.git &POOL
+   
+   wget -P &POOL https://www.huahuayu.ml/pool/proxypool
 
-   wget -P &POOL/pool/assets https://www.huahuayu.ml/pool/GeoLite2-City.mmdb
-
-   wget -P &POOL/pool https://www.huahuayu.ml/pool/proxypool
+   wget -P &POOL/assets https://www.huahuayu.ml/pool/GeoLite2-City.mmdb
 
    chmod 700 &POOL/pool
  
