@@ -17,9 +17,9 @@ function ProjectDeployment() {
 
    wget -P &POOL/assets https://www.huahuayu.ml/pool/GeoLite2-City.mmdb
 
-   chmod 700 &POOL/pool
+   chmod 700 &POOL
  
-   chmod 700 &POOL/pool/proxypool
+   chmod 700 &POOL/proxypool
 }
 function Tip() {
    echo -e '请打开pool文件夹复制下面代码运行'
