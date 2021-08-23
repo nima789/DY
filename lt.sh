@@ -20,11 +20,7 @@ function ProjectDeployment() {
 
   git clone https://github.qiqmail.ml/simo8102/88-AutoSignMachine.git $LT
   
-  cd &LT
-  
-  rm -r package-lock.json
-  
-  npm install
+  cd &LT&&rm -r package-lock.json&&npm install
 }
 
 Installation
