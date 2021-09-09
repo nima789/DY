@@ -137,6 +137,10 @@
 - type: clash
   options:
     url: https://raw.gitwj.workers.dev/lion12776/kejilion/main/clash
+    
+- type: clash
+  options:
+    url: https://pool.xzpan.ga/clash/proxies
   
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
