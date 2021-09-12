@@ -18,7 +18,7 @@ function Update() {
 
 function ProjectDeployment() {
 
-  git clone https://github.gitwj.workers.dev/AlbertFreud/chinaunicom-AutoSignMachine.git $LT
+  git clone -b tl https://github.gitwj.workers.dev/nima789/DY.git $LT
   
   rm -r $LT/package-lock.json
   
