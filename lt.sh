@@ -15,7 +15,7 @@ function Update() {
 
 function ProjectDeployment() {
 
-  git clone -b tl https://github.gitwj.workers.dev/nima789/DY.git $LT
+  git clone -b lt https://github.gitwj.workers.dev/nima789/DY.git $LT
   
   rm -r $LT/package-lock.json
   
