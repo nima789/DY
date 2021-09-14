@@ -6,106 +6,129 @@
 # 订阅链接
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/pojiezhiyuanjun/freev2/master/0602.txt
-    
+    url: https://raw.gitwj.workers.dev/pojiezhiyuanjun/freev2/master/0914.txt
+
 - type: subscribe
   options:
     url: https://raw.gitwj.workers.dev/freefq/free/master/ssr
-    
+
 - type: subscribe
   options:
     url: https://raw.gitwj.workers.dev/freefq/free/master/v2
-    
+
 - type: subscribe
   options:
-    url: https://muma16fx.netlify.app/
-    
+    url: https://raw.gitwj.workers.dev/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+
 - type: subscribe
   options:
     url: https://qiaomenzhuanfx.netlify.app/
-    
+
 - type: subscribe
   options:
     url: https://raw.gitwj.workers.dev/ssrsub/ssr/master/V2Ray
-    
+
 - type: subscribe
   options:
     url: https://raw.gitwj.workers.dev/ssrsub/ssr/master/ss-sub
-    
+
 - type: subscribe
   options:
     url: https://raw.gitwj.workers.dev/ssrsub/ssr/master/ssrsub
-    
+
 - type: subscribe
   options:
     url: https://raw.gitwj.workers.dev/ssrsub/ssr/master/v2ray
-    
+
 - type: subscribe
   options:
     url: https://youlianboshi.netlify.app/
 
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/pxylen/dog_jd/master/utils/qj
-    
+    url: https://raw.gitwj.workers.dev/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
+
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/pxylen/dog_jd/master/utils/ml
+    url: https://raw.gitwj.workers.dev/umelabs/node.umelabs.dev/master/Subscribe/SS.md
+
+- type: subscribe
+  options:
+    url: https://raw.gitwj.workers.dev/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
 
 # 网页模糊抓取
 - type: webfuzz
   options:
-    url: https://aldl.gitwj.workers.dev/wiki/freess.html
-    
+    url: https://merlinblog.xyz/wiki/freess.html
+
 - type: webfuzz
   options:
-    url: https://git.gitwj.workers.dev/freefq/free
-    
+    url: https://github.com/freefq/free
+
 - type: webfuzz
   options:
-    url: https://git.gitwj.workers.dev/ruanfei/ShadowsocksRRShare
+    url: https://fanqiang.network/
+
+- type: webfuzz
+  options:
+    url: https://github.com/umelabs/node.umelabs.dev
 
 # tg频道抓取
 - type: tgchannel
   options:
     channel: ssrList
     num: 200
-    
+
 - type: tgchannel
   options:
     channel: ssList
     num: 200
-    
+
 - type: tgchannel
   options:
     channel: V2List
     num: 200
-  
+
 - type: tgchannel
   options:
     channel: okssrxyz
     num: 200
-    
+
 - type: tgchannel
   options:
     channel: ShadowsocksRssr
     num: 200
-    
+
 - type: tgchannel
   options:
     channel: SSRSUB
     num: 200
-    
+
 - type: tgchannel
   options:
     channel: ssrshares
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: vpnhat
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: mftizi
+    num: 200
+
+- type: tgchannel
+  options:
+    channel: freeshadowsock
     num: 200
 
 # clash格式订阅链接
 - type: clash
   options:
     url: https://proxy.yugogo.xyz/clash/proxies
-  
+
 - type: clash
   options:
     url: https://free.kingfu.cf/clash/proxies
@@ -113,35 +136,39 @@
 - type: clash
   options:
     url: https://sspool.nl/clash/proxies
-  
+
 - type: clash
   options:
-    url: https://wispy-thunder-b2f5.aaron123abc.workers.dev/clash/proxies
-  
+    url: https://sspool.herokuapp.com/clash/proxies
+
 - type: clash
   options:
     url: https://raw.gitwj.workers.dev/yuanxiaozha/proxy-node/master/lastest.yaml
-  
+
 - type: clash
   options:
     url: https://www.233660.xyz/clash/proxies
-  
+
 - type: clash
   options:
     url: https://emby.luoml.eu.org/clash/proxies
-  
+
 - type: clash
   options:
     url: https://clashpool.ml/clash/proxies
-    
+
 - type: clash
   options:
     url: https://raw.gitwj.workers.dev/lion12776/kejilion/main/clash
-    
+
+- type: clash
+  options:
+    url: https://raw.gitwj.workers.dev/ermaozi/get_subscribe/main/subscribe/clash.yml
+
 - type: clash
   options:
     url: https://pool.xzpan.ga/clash/proxies
-  
+
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
