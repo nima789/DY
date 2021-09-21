@@ -1,5 +1,5 @@
 # your domain
-domain: 192.168.101.7:12580
+domain: 127.0.0.1:12580
 port:  12580
 
 # source list file
