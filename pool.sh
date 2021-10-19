@@ -34,7 +34,7 @@ function Tip() {
    echo -e '区域网访问：wifi IP 地址:12580'
 }
 function Again() {
-   rm $POOL
+   rm -rf $POOL
    echo -e '网络原因文件下载失败请重新运行此脚本'
 }
 Installation
