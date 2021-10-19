@@ -3,12 +3,17 @@ POOL=/data/data/com.termux/files/home/pool
 function Installation() {
    Update
    ProjectDeployment
-   ls $POOL | grep proxypool -wq
-        if [ $? -eq 0 ]; then
-            Tip
-        else
-            Again
-        fi
+   ls $POOL | grep config.yaml -wq
+   if [ $? -eq 0 ]; then
+        ls $POOL | grep proxypool -wq
+            if [ $? -eq 0 ]; then
+                Tip
+            else
+                Again
+            fi
+    else
+        Again
+    fi
 }
 function Update() {
    pkg update -y
