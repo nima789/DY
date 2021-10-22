@@ -143,23 +143,11 @@
 
 - type: clash
   options:
-    url: https://raw.gitwj.workers.dev/yuanxiaozha/proxy-node/master/lastest.yaml
-
-- type: clash
-  options:
-    url: https://www.233660.xyz/clash/proxies
-
-- type: clash
-  options:
     url: https://emby.luoml.eu.org/clash/proxies
 
 - type: clash
   options:
     url: https://clashpool.ml/clash/proxies
-
-- type: clash
-  options:
-    url: https://raw.gitwj.workers.dev/lion12776/kejilion/main/clash
 
 - type: clash
   options:
