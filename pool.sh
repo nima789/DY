@@ -16,7 +16,7 @@ function Update() {
 }
 function ProjectDeployment() {
    rm -rf $POOL
-   git clone -b pool https://github.gitwj.workers.dev/nima789/DY.git $POOL 
+   git clone -b pool https://ghproxy.com/https://github.com/nima789/DY.git $POOL 
    wget -P $POOL https://www.huahuayu.ml/pool/proxypool
    wget -P $POOL/assets https://www.huahuayu.ml/pool/GeoLite2-City.mmdb
    chmod 700 $POOL
