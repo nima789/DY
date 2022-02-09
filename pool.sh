@@ -27,7 +27,7 @@ function Tip() {
    echo -e 'cd pool'
    echo -e 'nohup ./proxypool -c config.yaml'
    echo -e '本地访问：127.0.0.1:12580'
-   echo -e '区域网访问：wifi IP 地址:12580'
+   echo -e '区域网访问：手机IP地址如(192.168.1.101):12580'
 }
 function Again() {
    rm -rf $POOL
