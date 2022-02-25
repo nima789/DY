@@ -1,6 +1,6 @@
 # your domain
 domain: 127.0.0.1
-port:  80
+port:  12580
 
 # source list file
 source-files:
