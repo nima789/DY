@@ -131,7 +131,7 @@
 
 - type: clash
   options:
-    url: https://free.zdl.im/clash/proxies
+    url: http://149.248.8.112/clash/proxies
 
 - type: clash
   options:
