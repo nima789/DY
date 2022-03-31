@@ -14,10 +14,6 @@
 
 - type: subscribe
   options:
-    url: https://qiaomenzhuanfx.netlify.app/
-
-- type: subscribe
-  options:
     url: https://raw.fastgit.org/ssrsub/ssr/master/V2Ray
 
 - type: subscribe
@@ -51,7 +47,7 @@
 
 - type: webfuzz
   options:
-    url: https://github.com/freefq/free
+    url: https://hub.fastgit.xyz/freefq/free
 
 - type: webfuzz
   options:
@@ -59,7 +55,7 @@
 
 - type: webfuzz
   options:
-    url: https://github.com/umelabs/node.umelabs.dev
+    url: https://hub.fastgit.xyz/umelabs/node.umelabs.dev
 
 # tg频道抓取
 - type: tgchannel
