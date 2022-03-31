@@ -17,8 +17,8 @@ function Update() {
 function ProjectDeployment() {
    rm -rf $POOL
    git clone -b pool https://hub.fastgit.xyz/nima789/DY.git $POOL 
-   wget -P $POOL https://wp.xzpan.ga/api/v3/file/source/6/proxypool?sign=5kxf0TW2r4pvq-K7B0opSkvw1jZIj3FaJBHj5sZ8jTA%3D%3A0
-   wget -P $POOL/assets https://wp.xzpan.ga/api/v3/file/source/7/GeoLite2-City.mmdb?sign=P3WXbwExqEKHglxM8zTkv1W160-phvaAgG_uCfrhYn8%3D%3A0
+   wget -P $POOL https://www.6666mail.ml/pool/proxypool
+   wget -P $POOL/assets https://www.6666mail.ml/pool/GeoLite2-City
    chmod 700 $POOL
    chmod 700 $POOL/proxypool
 } 
