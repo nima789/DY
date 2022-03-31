@@ -127,15 +127,15 @@
 # clash格式订阅链接
 - type: clash
   options:
-    url: https://proxy.yugogo.xyz/clash/proxies
+    url: https://proxies.bihai.cf/clash/proxies
 
 - type: clash
   options:
-    url: https://free.kingfu.cf/clash/proxies
+    url: https://fq.lonxin.net/clash/proxies
   
 - type: clash
   options:
-    url: https://sspool.nl/clash/proxies
+    url: https://hk.xhrzg2017.xyz/clash/proxies
 
 - type: clash
   options:
@@ -143,11 +143,11 @@
 
 - type: clash
   options:
-    url: https://emby.luoml.eu.org/clash/proxies
+    url: http://wxshi.top:9090/clash/proxies
 
 - type: clash
   options:
-    url: https://clashpool.ml/clash/proxies
+    url: https://free.zdl.im/clash/proxies
 
 - type: clash
   options:
