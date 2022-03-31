@@ -1,24 +1,16 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: https://raw.gitwj.workers.dev/du5/free/master/sub.list
+    url: https://cdn.jsdelivr.net/gh/du5/free@master/sub.list
 
 # 订阅链接
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/pojiezhiyuanjun/freev2/master/0914.txt
+    url: https://raw.fastgit.org/freefq/free/master/v2
 
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/freefq/free/master/ssr
-
-- type: subscribe
-  options:
-    url: https://raw.gitwj.workers.dev/freefq/free/master/v2
-
-- type: subscribe
-  options:
-    url: https://raw.gitwj.workers.dev/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+    url: https://cdn.jsdelivr.net/gh/ermaozi/get_subscribe@main/subscribe/v2ray.txt
 
 - type: subscribe
   options:
@@ -26,19 +18,15 @@
 
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/ssrsub/ssr/master/V2Ray
+    url: https://raw.fastgit.org/ssrsub/ssr/master/V2Ray
 
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/ssrsub/ssr/master/ss-sub
+    url: https://raw.fastgit.org/ssrsub/ssr/master/ss-sub
 
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/ssrsub/ssr/master/ssrsub
-
-- type: subscribe
-  options:
-    url: https://raw.gitwj.workers.dev/ssrsub/ssr/master/v2ray
+    url: https://raw.fastgit.org/ssrsub/ssr/master/ssrsub
 
 - type: subscribe
   options:
@@ -46,15 +34,15 @@
 
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
+    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
 
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/umelabs/node.umelabs.dev/master/Subscribe/SS.md
+    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/SS.md
 
 - type: subscribe
   options:
-    url: https://raw.gitwj.workers.dev/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
+    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
 
 # 网页模糊抓取
 - type: webfuzz
@@ -151,7 +139,7 @@
 
 - type: clash
   options:
-    url: https://raw.gitwj.workers.dev/ermaozi/get_subscribe/main/subscribe/clash.yml
+    url: https://raw.fastgit.org/ermaozi/get_subscribe/main/subscribe/clash.yml
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
