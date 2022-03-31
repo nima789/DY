@@ -1,7 +1,7 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: https://cdn.jsdelivr.net/gh/du5/free@master/sub.list
+    url: https://raw.fastgit.org/du5/free/master/sub.list
 
 # 订阅链接
 - type: subscribe
@@ -10,7 +10,7 @@
 
 - type: subscribe
   options:
-    url: https://cdn.jsdelivr.net/gh/ermaozi/get_subscribe@main/subscribe/v2ray.txt
+    url: https://raw.fastgit.org/ermaozi/get_subscribe/main/subscribe/v2ray.txt
 
 - type: subscribe
   options:
