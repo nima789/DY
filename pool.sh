@@ -17,8 +17,8 @@ function Installation() {
 function ProjectDeployment() {
    rm -rf $POOL
    git clone -b pool https://github.hhymail.ml/nima789/DY.git $POOL 
-   wget -P $POOL https://aliyuncf.xzpan.ga/d/Onedrive/ProxyPool/proxypool
-   wget -P $POOL/assets https://aliyuncf.xzpan.ga/d/Onedrive/ProxyPool/GeoLite2-City.mmdb
+   wget -P $POOL https://alist.xzpan.ga/d/Onedrive/ProxyPool/proxypool
+   wget -P $POOL/assets https://alist.xzpan.ga/d/Onedrive/ProxyPool/GeoLite2-City.mmdb
    chmod 700 $POOL
    chmod 700 $POOL/proxypool
 } 
