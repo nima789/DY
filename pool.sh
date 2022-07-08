@@ -1,7 +1,7 @@
 POOL=/data/data/com.termux/files/home/pool
 
 function Installation() {
-   Update
+#   Update
    ProjectDeployment
    ls $POOL | grep proxypool -wq
    if [ $? -eq 0 ]; then
@@ -10,10 +10,10 @@ function Installation() {
        Again
     fi
 }
-function Update() {
-   pkg update -y
-   pkg install -y git curl wget
-}
+#function Update() {
+#   pkg update -y
+#   pkg install -y git curl wget
+#}
 function ProjectDeployment() {
    rm -rf $POOL
    git clone -b pool https://github.hhymail.ml/nima789/DY.git $POOL 
