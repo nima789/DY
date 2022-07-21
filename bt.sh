@@ -4,7 +4,7 @@ function Implement() {
 }
 
 function GoBack() {
-  wget -P /root https://alist.xzpan.ga/d/Onedrive/%E5%AE%9D%E5%A1%947.7.0/LinuxPanel-7.7.0.zip
+  wget -O /root/LinuxPanel-7.7.0.zip https://xzp.xiezhang.ml/api/raw/?path=/%E5%AE%9D%E5%A1%947.7.0/LinuxPanel-7.7.0.zip
   unzip /root/LinuxPanel-7.7.0.zip
   bash /root/panel/update.sh
 }
