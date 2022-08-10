@@ -37,7 +37,7 @@ function Hexo2() {
   npm install -g hexo-cli
   read -p "请输Hexo目录名：" folder
   git clone git@github.com:nima789/hexo-blog.git $HOME/$folder
-  cd $HOME/$folder
+  cd $HOME/$folder && mkdir themes
   npm install
   git clone -b master https://git.hubproxy.cf/https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
   npm install hexo-renderer-pug hexo-renderer-stylus --save
