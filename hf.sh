@@ -1,5 +1,3 @@
-home = /data/data/com.termux/files/home
-
 function Recovery() {
   echo -e "termux脚本"
   echo -e "1. Hexo 安装"
@@ -22,8 +20,8 @@ function Hexo() {
   npm config set registry https://registry.npm.taobao.org
   npm install -g hexo-cli
   read -p "请输Hexo目录名：" folder
-  mkdir $home/$folder
-  cd $home/$folder
+  mkdir $HOME/$folder
+  cd $HOME/$folder
   hexo init
   npm install
   git clone -b master https://git.hubproxy.cf/https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
@@ -48,8 +46,8 @@ function Pool() {
 }
 
 function Cf_TVbox() {
-  git clone git@nimabi66.github.com:nimabi66/CloudflarePageDY.git $home/tvboxfdy
-  git clone -b main git@nimabi66.github.com:nimabi66/freed.git $home/tvbox
+  git clone git@nimabi66.github.com:nimabi66/CloudflarePageDY.git $HOME/tvboxfdy
+  git clone -b main git@nimabi66.github.com:nimabi66/freed.git $HOME/tvbox
 }
 
 Recovery
