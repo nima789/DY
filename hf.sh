@@ -1,3 +1,5 @@
+home = /data/data/com.termux/files/home
+
 function Recovery() {
   echo -e "termux脚本"
   echo -e "1. Hexo 安装"
