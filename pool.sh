@@ -1,7 +1,6 @@
 POOL=/data/data/com.termux/files/home/pool
 
 function Installation() {
-#   Update
    ProjectDeployment
    ls $POOL | grep proxypool -wq
    if [ $? -eq 0 ]; then
@@ -10,14 +9,11 @@ function Installation() {
        Again
     fi
 }
-#function Update() {
-#   pkg update -y
-#   pkg install -y git curl wget
-#}
+
 function ProjectDeployment() {
    rm -rf $POOL
    git clone -b pool https://git.hubproxy.cf/https://github.com/nima789/DY.git $POOL
-   wget -O $POOL/proxypool https://xzpan.xiezhang.ml/%E6%96%87%E4%BB%B6/proxypool
+   wget -O $POOL/proxypool https://xzpan.xiezhang.ml/%E6%96%87%E4%BB%B6/proxypool-arm64
    wget -O $POOL/assets/GeoLite2-City.mmdb https://xzpan.xiezhang.ml/%E6%96%87%E4%BB%B6/GeoLite2-City.mmdb
    chmod 700 $POOL
    chmod 700 $POOL/proxypool
