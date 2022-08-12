@@ -10,7 +10,7 @@ function Installation() {
 
 function ProjectDeployment() {
    rm -rf $HOME/pool
-   git clone -b pool https://git.hubproxy.cf/https://github.com/nima789/DY.git $HOME/pool
+   git clone -b pool https://github.com/nima789/DY.git $HOME/pool
    wget -O $HOME/pool/proxypool https://xzpan.xiezhang.ml/%E6%96%87%E4%BB%B6/proxypool-amd64
    wget -O $HOME/pool/assets/GeoLite2-City.mmdb https://xzpan.xiezhang.ml/%E6%96%87%E4%BB%B6/GeoLite2-City.mmdb
    chmod 700 $HOME/pool/proxypool
