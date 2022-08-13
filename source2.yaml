@@ -84,6 +84,10 @@
 - type: webfuzz
   options:
     url: https://xtrojan.org/free-xray-xtls
+    
+- type: webfuzz
+  options:
+    url: https://2022vpn.net/free-ss-ssr-v2ray-trojan-clash-nodes-subscribes/
 
 # tg频道抓取
 - type: tgchannel
@@ -167,7 +171,7 @@
     
 - type: clash
   options:
-    url: https://ednovas.design/clash/proxies
+    url: https://free886.herokuapp.com/clash/proxies
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
