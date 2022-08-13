@@ -26,7 +26,11 @@
 
 - type: subscribe
   options:
-    url: https://youlianboshi.netlify.app/
+    url: https://ssr.bettershop.club/wp-content/uploads/2020/06/v2ray%E9%80%9A%E7%94%A8vmess%E8%8A%82%E7%82%B9.txt
+    
+- type: subscribe
+  options:
+    url: https://ssr.bettershop.club/wp-content/uploads/2020/06/%E5%85%8D%E8%B4%B9ssr%E8%8A%82%E7%82%B927%E4%B8%AA.txt
 
 - type: subscribe
   options:
@@ -51,11 +55,35 @@
 
 - type: webfuzz
   options:
-    url: https://fanqiang.network/
+    url: https://zfjvpn.gitbook.io/123/
 
 - type: webfuzz
   options:
     url: https://gtihub.com/umelabs/node.umelabs.dev
+    
+- type: webfuzz
+  options:
+    url: https://v2cross.com/archives/1884
+    
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+    
+- type: webfuzz
+  options:
+    url: https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
+    
+- type: webfuzz
+  options:
+    url: https://xtrojan.org/free-ssr-shadowsocksr
+    
+- type: webfuzz
+  options:
+    url: https://xtrojan.org/free-v2ray
+    
+- type: webfuzz
+  options:
+    url: https://xtrojan.org/free-xray-xtls
 
 # tg频道抓取
 - type: tgchannel
@@ -119,7 +147,7 @@
   
 - type: clash
   options:
-    url: https://hk.xhrzg2017.xyz/clash/proxies
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
 
 - type: clash
   options:
