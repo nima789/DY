@@ -1,6 +1,6 @@
 function Installation() {
    ProjectDeployment
-   ls $POOL | grep proxypool -wq
+   ls $HOME/pool | grep proxypool -wq
    if [ $? -eq 0 ]; then
        Tip
     else
