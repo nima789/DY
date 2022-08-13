@@ -1,28 +1,28 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/du5/free/master/sub.list
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
 # 订阅链接
 - type: subscribe
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/freefq/free/master/v2
+    url: https://raw.githubusercontent.com/freefq/free/master/v2
 
 - type: subscribe
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
 
 - type: subscribe
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 
 - type: subscribe
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
 
 - type: subscribe
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
 
 - type: subscribe
   options:
@@ -30,15 +30,15 @@
 
 - type: subscribe
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
 
 - type: subscribe
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SS.md
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SS.md
 
 - type: subscribe
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
 
 # 网页模糊抓取
 - type: webfuzz
@@ -135,7 +135,7 @@
 
 - type: clash
   options:
-    url: https://ghproxy.com/https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
     
 - type: clash
   options:
@@ -144,7 +144,7 @@
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
-    url: https://fanqiangdang.com/forum-48-1.html
+    url: 
 
 # 某个网站抓取
 - type: web-freessrxyz
