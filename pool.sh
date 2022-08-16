@@ -1,8 +1,6 @@
-POOL=/data/data/com.termux/files/home/pool
-
 function Installation() {
    ProjectDeployment
-   ls $POOL | grep proxypool -wq
+   ls $HOME/pool | grep proxypool -wq
    if [ $? -eq 0 ]; then
        Tip
     else
@@ -11,12 +9,11 @@ function Installation() {
 }
 
 function ProjectDeployment() {
-   rm -rf $POOL
+   rm -rf $HOME/pool
    git clone -b pool https://xzgh.run.goorm.io/https://github.com/nima789/DY.git $POOL
-   wget -O $POOL/proxypool https://xzpan.xiezhang.ml/%E6%96%87%E4%BB%B6/proxypool-arm64
-   wget -O $POOL/assets/GeoLite2-City.mmdb https://xzpan.xiezhang.ml/%E6%96%87%E4%BB%B6/GeoLite2-City.mmdb
-   chmod 700 $POOL
-   chmod 700 $POOL/proxypool
+   wget -O $HOME/pool/proxypool https://xztu.xiezhang.ml/%E6%96%87%E4%BB%B6/proxypool-arm64
+   wget -O $HOME/pool/assets/GeoLite2-City.mmdb https://xztu.xiezhang.ml/%E6%96%87%E4%BB%B6/GeoLite2-City.mmdb
+   chmod 700 $HOME/pool/proxypool
 } 
 function Tip() {
    echo -e '请复制下面代码打开pool文件夹运行'
@@ -26,7 +23,7 @@ function Tip() {
    echo -e '区域网访问：手机IP地址如(192.168.1.101:12580)'
 }
 function Again() {
-   rm -rf $POOL
+   rm -rf $HOME/pool
    echo -e '网络原因文件下载失败请重新运行此脚本'
 }
 Installation
