@@ -107,7 +107,7 @@
 
 - type: tgchannel
   options:
-    channel: okssrxyz
+    channel: outlinex
     num: 200
 
 - type: tgchannel
@@ -132,7 +132,7 @@
 
 - type: tgchannel
   options:
-    channel: mftizi
+    channel: joinchat/SEhpWAIPQLsIupfN
     num: 200
 
 - type: tgchannel
