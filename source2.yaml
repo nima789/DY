@@ -172,6 +172,10 @@
 - type: clash
   options:
     url: https://free886.herokuapp.com/clash/proxies
+    
+- type: clash
+  options:
+    url: https://free.jingfu.cf/clash/proxies
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
