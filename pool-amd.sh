@@ -23,7 +23,7 @@ function Tip() {
    echo -e '区域网访问：手机IP地址如(192.168.1.101:12580)'
 }
 function Again() {
-   rm -rf $POOL
+   rm -rf $HOME/pool
    echo -e '网络原因文件下载失败请重新运行此脚本'
 }
 Installation
