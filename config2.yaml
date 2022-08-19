@@ -1,6 +1,6 @@
 # your domain
 domain: pool.run.goorm.io
-port:  12580
+port:  80
 
 # source list file
 source-files:
