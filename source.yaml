@@ -2,6 +2,18 @@
 - type: webfuzzsub
   options:
     url: https://raw.fastgit.org/du5/free/master/sub.list
+    
+- type: webfuzzsub
+  options:
+    url: https://raw.fastgit.org/nima789/DY/file/test1.txt
+    
+- type: webfuzzsub
+  options:
+    url: https://raw.fastgit.org/nima789/DY/file/test2.txt
+    
+- type: webfuzzsub
+  options:
+    url: https://raw.fastgit.org/nima789/DY/file/test3.txt
 
 # 订阅链接
 - type: subscribe
@@ -36,10 +48,6 @@
   options:
     url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/SS.md
 
-- type: subscribe
-  options:
-    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
-    
 - type: subscribe
   options:
     url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
