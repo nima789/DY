@@ -26,7 +26,7 @@ function Hexo() {
   cd $HOME/$folder
   hexo init
   npm install
-  git clone -b master https://git.hubproxy.cf/https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+  git clone -b master https://gh.hubproxy.cf/https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
   npm install hexo-renderer-pug hexo-renderer-stylus --save
   echo -e "Hexo 安装完成"
 }
@@ -39,7 +39,7 @@ function Hexo2() {
   git clone git@github.com:nima789/hexo-blog.git $HOME/$folder
   cd $HOME/$folder && mkdir themes
   npm install
-  git clone -b master https://git.hubproxy.cf/https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+  git clone -b master https://gh.hubproxy.cf/https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
   npm install hexo-renderer-pug hexo-renderer-stylus --save
   echo -e "Hexo 安装完成"
 }
