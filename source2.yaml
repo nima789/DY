@@ -1,40 +1,40 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: https://raw.fastgit.org/du5/free/master/sub.list
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
     
 - type: webfuzzsub
   options:
-    url: https://raw.fastgit.org/nima789/DY/file/test1.txt
+    url: https://raw.githubusercontent.com/nima789/DY/file/test1.txt
     
 - type: webfuzzsub
   options:
-    url: https://raw.fastgit.org/nima789/DY/file/test2.txt
+    url: https://raw.githubusercontent.com/nima789/DY/file/test2.txt
     
 - type: webfuzzsub
   options:
-    url: https://raw.fastgit.org/nima789/DY/file/test3.txt
+    url: https://raw.githubusercontent.com/nima789/DY/file/test3.txt
 
 # 订阅链接
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/freefq/free/master/v2
+    url: https://raw.githubusercontent.com/freefq/free/master/v2
 
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
 
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/ssrsub/ssr/master/V2Ray
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
 
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/ssrsub/ssr/master/ss-sub
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
 
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/ssrsub/ssr/master/ssrsub
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
 
 - type: subscribe
   options:
@@ -46,15 +46,15 @@
 
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
 
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/SS.md
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SS.md
 
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
 
 - type: subscribe
   options:
@@ -67,7 +67,7 @@
 
 - type: webfuzz
   options:
-    url: https://raw.fastgit.org/freefq/free/master/README.md
+    url: https://raw.githubusercontent.com/freefq/free/master/README.md
 
 - type: webfuzz
   options:
@@ -83,11 +83,11 @@
 
 - type: webfuzz
   options:
-    url: https://raw.fastgit.org/UmeLabs/node.umelabs.dev/master/README.md
+    url: https://raw.githubusercontent.com/UmeLabs/node.umelabs.dev/master/README.md
     
 - type: webfuzz
   options:
-    url:https://raw.fastgit.org/Pawdroid/Free-servers/main/README.md
+    url:https://raw.githubusercontent.com/Pawdroid/Free-servers/main/README.md
 
 # tg频道抓取
 - type: tgchannel
@@ -143,7 +143,7 @@
 # clash格式订阅链接
 - type: clash
   options:
-    url: https://raw.fastgit.org/ermaozi/get_subscribe/main/subscribe/clash.yml
+    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
     
 - type: clash
   options:
