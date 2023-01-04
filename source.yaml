@@ -39,15 +39,19 @@
 - type: subscribe
   options:
     url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
+    
+- type: subscribe
+  options:
+    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
 
 # 网页模糊抓取
 - type: webfuzz
   options:
-    url: https://merlinblog.xyz/wiki/freess.html
+    url: https://xzdaily.deno.dev/-----https://merlinblog.xyz/wiki/freess.html
 
 - type: webfuzz
   options:
-    url: https://hub.fastgit.xyz/freefq/free
+    url: https://hub.fastgit.org/freefq/free
 
 - type: webfuzz
   options:
@@ -55,7 +59,11 @@
 
 - type: webfuzz
   options:
-    url: https://hub.fastgit.xyz/umelabs/node.umelabs.dev
+    url: https://hub.fastgit.org/umelabs/node.umelabs.dev
+    
+- type: webfuzz
+  options:
+    url: https://hub.fastgit.org/Pawdroid/Free-servers
 
 # tg频道抓取
 - type: tgchannel
