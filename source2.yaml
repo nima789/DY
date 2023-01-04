@@ -1,28 +1,40 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
-    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+    url: https://raw.fastgit.org/du5/free/master/sub.list
+    
+- type: webfuzzsub
+  options:
+    url: https://raw.fastgit.org/nima789/DY/file/test1.txt
+    
+- type: webfuzzsub
+  options:
+    url: https://raw.fastgit.org/nima789/DY/file/test2.txt
+    
+- type: webfuzzsub
+  options:
+    url: https://raw.fastgit.org/nima789/DY/file/test3.txt
 
 # 订阅链接
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/freefq/free/master/v2
+    url: https://raw.fastgit.org/freefq/free/master/v2
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt
+    url: https://raw.fastgit.org/ermaozi/get_subscribe/main/subscribe/v2ray.txt
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray
+    url: https://raw.fastgit.org/ssrsub/ssr/master/V2Ray
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub
+    url: https://raw.fastgit.org/ssrsub/ssr/master/ss-sub
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub
+    url: https://raw.fastgit.org/ssrsub/ssr/master/ssrsub
 
 - type: subscribe
   options:
@@ -34,24 +46,36 @@
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
+    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SS.md
+    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/SS.md
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
+    url: https://raw.fastgit.org/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
+
+- type: subscribe
+  options:
+    url: https://sub.sharecentre.online/sub
 
 # 网页模糊抓取
 - type: webfuzz
   options:
-    url: https://merlinblog.xyz/wiki/freess.html
+    url: https://xzdaily.deno.dev/-----https://merlinblog.xyz/wiki/freess.html
 
 - type: webfuzz
   options:
-    url: https://github.com/freefq/free
+    url: https://raw.fastgit.org/freefq/free/master/README.md
+
+- type: webfuzz
+  options:
+    url: https://tr3.freeair888.club/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7/
+
+- type: webfuzz
+  options:
+    url: https://tr3.freeair888.club/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7/
 
 - type: webfuzz
   options:
@@ -59,35 +83,11 @@
 
 - type: webfuzz
   options:
-    url: https://gtihub.com/umelabs/node.umelabs.dev
+    url: https://raw.fastgit.org/UmeLabs/node.umelabs.dev/master/README.md
     
 - type: webfuzz
   options:
-    url: https://v2cross.com/archives/1884
-    
-- type: webfuzz
-  options:
-    url: https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
-    
-- type: webfuzz
-  options:
-    url: https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7
-    
-- type: webfuzz
-  options:
-    url: https://xtrojan.org/free-ssr-shadowsocksr
-    
-- type: webfuzz
-  options:
-    url: https://xtrojan.org/free-v2ray
-    
-- type: webfuzz
-  options:
-    url: https://xtrojan.org/free-xray-xtls
-    
-- type: webfuzz
-  options:
-    url: https://2022vpn.net/free-ss-ssr-v2ray-trojan-clash-nodes-subscribes/
+    url:https://raw.fastgit.org/Pawdroid/Free-servers/main/README.md
 
 # tg频道抓取
 - type: tgchannel
@@ -107,7 +107,7 @@
 
 - type: tgchannel
   options:
-    channel: outlinex
+    channel: okssrxyz
     num: 200
 
 - type: tgchannel
@@ -132,7 +132,7 @@
 
 - type: tgchannel
   options:
-    channel: joinchat/SEhpWAIPQLsIupfN
+    channel: mftizi
     num: 200
 
 - type: tgchannel
@@ -143,35 +143,7 @@
 # clash格式订阅链接
 - type: clash
   options:
-    url: https://proxies.bihai.cf/clash/proxies
-
-- type: clash
-  options:
-    url: https://fq.lonxin.net/clash/proxies
-  
-- type: clash
-  options:
-    url: https://raw.githubusercontent.com/ssrsub/ssr/master/Clash.yml
-
-- type: clash
-  options:
-    url: https://sspool.herokuapp.com/clash/proxies
-
-- type: clash
-  options:
-    url: http://wxshi.top:9090/clash/proxies
-
-- type: clash
-  options:
-    url: http://149.248.8.112/clash/proxies
-
-- type: clash
-  options:
-    url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
-    
-- type: clash
-  options:
-    url: https://free886.herokuapp.com/clash/proxies
+    url: https://raw.fastgit.org/ermaozi/get_subscribe/main/subscribe/clash.yml
     
 - type: clash
   options:
@@ -180,7 +152,7 @@
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
-    url: 
+    url: https://fanqiangdang.com/forum-48-1.html
 
 # 某个网站抓取
 - type: web-freessrxyz
