@@ -48,7 +48,7 @@ function CroreIp() {
   wget -P $HOME/cf https://gh.hubproxy.cf/https://raw.githubusercontent.com/nima789/DY/file/ip-gc.txt
   cp $HOME/cf/ip-gc.txt $HOME/cf/ip.txt
   echo -e "Croreip 下载完成"
-  echo -e "cd cf && ./CloudflareST 运行"
+  echo -e "cd cf && ./CloudflareST -dd 运行"
 }
 
 Install
