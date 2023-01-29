@@ -10,7 +10,7 @@ function Install() {
   1)CloudflareST;;
   2)Daily;;
   3)Master;;
-  3)GcoreIp;;
+  4)GcoreIp;;
   *)exit;
   esac
 }
