@@ -1,85 +1,95 @@
 {
-    "log":{
-        "loglevel":"warning",
-        "access":"/dev/null",
-        "error":"/dev/null"
-    },
-    "stats":{
-
-    },
-    "api":{
-        "services":[
-            "StatsService"
-        ],
-        "tag":"api"
-    },
-    "policy":{
-        "levels":{
-            "1":{
-                "handshake":4,
-                "connIdle":300,
-                "uplinkOnly":2,
-                "downlinkOnly":5,
-                "statsUserUplink":false,
-                "statsUserDownlink":false
-            }
-        },
-        "system":{
-            "statsInboundUplink":true,
-            "statsInboundDownlink":true
-        }
-    },
-    "allocate":{
-        "strategy":"always",
-        "refresh":5,
-        "concurrency":3
-    },
-    "inbounds":[
-        {
-            "port":8080,
-            "protocol":"vmess",
-            "settings":{
-                "clients":[
-                    {
-                        "id":"98ab9f64-c9f2-4911-af81-323a4d0aeca4",
-                        "alterId":0,
-                        "level":1
-                    }
-                ]
-            },
-            "streamSettings":{
-                "network":"ws",
-                "wsSettings":{
-                    "path":"/xz"
-                }
-            }
-        }
-    ],
-    "dns":{
-        "servers":[
-            "https+local://8.8.8.8/dns-query"
+  "log": null,
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "outboundTag": "IP4-out",
+        "domain": [
+          ""
         ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "IP6-out",
+        "network": "udp,tcp"
+      }
+    ]
+  },
+  "dns": null,
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 62789,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1"
+      },
+      "streamSettings": null,
+      "tag": "api",
+      "sniffing": null
     },
-    "outbounds":[
-        {
-            "protocol":"freedom",
-            "settings":{
-
-            }
+    {
+      "listen": null,
+      "port": 80,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "cc058a32-bada-457f-9715-011429a4ad55",
+            "alterId": 0
+          }
+        ],
+        "disableInsecureEncryption": true
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/",
+          "headers": {}
         }
-    ],
-    "routing":{
-        "settings":{
-            "rules":[
-                {
-                    "inboundTag":[
-                        "api"
-                    ],
-                    "outboundTag":"api",
-                    "type":"field"
-                }
-            ]
-        },
-        "strategy":"rules"
+      },
+      "tag": "inbound-80",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
     }
+  ],
+  "outbounds": [
+    {
+      "tag":"IP4-out",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag":"IP6-out",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIPv6" 
+      }
+    }
+  ],
+  "transport": null,
+  "policy": {
+    "system": {
+      "statsInboundDownlink": true,
+      "statsInboundUplink": true
+    }
+  },
+  "api": {
+    "services": [
+      "HandlerService",
+      "LoggerService",
+      "StatsService"
+    ],
+    "tag": "api"
+  },
+  "stats": {},
+  "reverse": null,
+  "fakeDns": null
 }
