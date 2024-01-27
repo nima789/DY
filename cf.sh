@@ -1,16 +1,12 @@
 function Install() {
   echo -e "Cloudflare Gcore 代理ip脚本"
   echo -e "1. 安装CloudflareST"
-  echo -e "2. ip-daily分支"
-  echo -e "3. ip-master分支"
-  echo -e "4. Gcore ip"
+  echo -e "2. Warp优选"
   echo -e "0. 退出"
   read -p "请输入数字：" num
   case "$num" in
   1)CloudflareST;;
-  2)Daily;;
-  3)Master;;
-  4)GcoreIp;;
+  2)Warp;;
   *)exit;
   esac
 }
@@ -26,29 +22,10 @@ function CloudflareST() {
   Install
 }
 
-function Daily() {
-  rm -rf $HOME/cf/cfip
-  git clone -b daily https://gh.hubproxy.cf/https://github.com/ip-scanner/cloudflare.git $HOME/cf/cfip
-  cd $HOME/cf/cfip && cat *.txt >> all.txt
-  cp $HOME/cf/cfip/all.txt $HOME/cf/ip.txt
-  echo -e "ip-daily分支 安装完成"
-  echo -e "cd cf && ./CloudflareST 运行"
-}
-
-function Master() {
-  rm -rf $HOME/cf/cfip
-  git clone -b master https://gh.hubproxy.cf/https://github.com/ip-scanner/cloudflare.git $HOME/cf/cfip
-  cd $HOME/cf/cfip && cat *.txt >> all.txt
-  cp $HOME/cf/cfip/all.txt $HOME/cf/ip.txt
-  echo -e "ip-master分支 安装完成"
-  echo -e "cd cf && ./CloudflareST 运行"
-}
-
-function GcoreIp() {
-  wget -P $HOME/cf https://gh.hubproxy.cf/https://raw.githubusercontent.com/nima789/DY/file/ip-gc.txt
-  cp $HOME/cf/ip-gc.txt $HOME/cf/ip.txt
-  echo -e "Croreip 下载完成"
-  echo -e "cd cf && ./CloudflareST -dd 运行"
+function Warp() {
+  rm -rf $HOME/warp
+  wget -P $HOME/warp https://gitlab.com/Misaka-blog/warp-script/-/raw/main/files/warp-yxip/warp-yxip.sh
+  echo -e "warp优选脚本下载完成"
 }
 
 Install
