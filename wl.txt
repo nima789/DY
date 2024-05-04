@@ -1,0 +1,9 @@
+香港,#genre#
+TVB翡翠台,https://hls.watchtv.uk/ompd/jade/index.m3u8?t=1714829243&token=9491d8352291f319126a1c0dec0a6a44
+TVB翡翠台,https://euorigin.scdn.eu.org/live/tvb_jade.m3u8?token=d3TniYdGxR0zEL5cz_11jQ&expires=1714847098
+TVB明珠台,https://hls.watchtv.uk/ompd/pearl/index.m3u8?t=1714829367&token=e5f7aea9e3c698d6c78978b499fe8804
+TVB明珠台,https://euorigin.scdn.eu.org/live/tvb_pearl.m3u8?token=LHge52elJ9oYVE3IPa8J-Q&expires=1714847428
+TVB Plus,https://euorigin.scdn.eu.org/live/tvb_j2.m3u8?token=OI4BpRr6S35bYqm_DyPXDw&expires=1714847789
+
+韩国,#genre#
+tvN,https://ali.hlspull.yximgs.com/live/1800bac9d3673f0b56b38c1bb000a90c.flv
