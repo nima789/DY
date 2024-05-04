@@ -7,3 +7,4 @@ TVB Plus,https://euorigin.scdn.eu.org/live/tvb_j2.m3u8?token=OI4BpRr6S35bYqm_DyP
 
 韩国,#genre#
 tvN,https://ali.hlspull.yximgs.com/live/1800bac9d3673f0b56b38c1bb000a90c.flv
+JTBC,https://ali.hlspull.yximgs.com/live/e1d1839b85b98e6e61c5d0314dadbfd5.flv
