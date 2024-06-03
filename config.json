@@ -1,95 +1,80 @@
 {
-  "log": null,
-  "routing": {
-    "rules": [
-      {
-        "type": "field",
-        "outboundTag": "IP4-out",
-        "domain": [
-          ""
-        ]
-      },
-      {
-        "type": "field",
-        "outboundTag": "IP6-out",
-        "network": "udp,tcp"
-      }
-    ]
-  },
-  "dns": null,
-  "inbounds": [
-    {
-      "listen": "127.0.0.1",
-      "port": 62789,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "127.0.0.1"
-      },
-      "streamSettings": null,
-      "tag": "api",
-      "sniffing": null
+    "log":{
+        "loglevel":"warning",
+        "access":"./dev/null",
+        "error":"./dev/null"
     },
-    {
-      "listen": null,
-      "port": 8080,
-      "protocol": "vmess",
-      "settings": {
-        "clients": [
-          {
-            "id": "cc058a32-bada-457f-9715-011429a4ad55",
-            "alterId": 0
-          }
+    "stats":{
+
+    },
+    "api":{
+        "services":[
+            "StatsService"
         ],
-        "disableInsecureEncryption": true
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "path": "/xz",
-          "headers": {}
-        }
-      },
-      "tag": "inbound-80",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ]
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "tag":"IP4-out",
-      "protocol": "freedom",
-      "settings": {}
+        "tag":"api"
     },
-    {
-      "tag":"IP6-out",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIPv6" 
-      }
-    }
-  ],
-  "transport": null,
-  "policy": {
-    "system": {
-      "statsInboundDownlink": true,
-      "statsInboundUplink": true
-    }
-  },
-  "api": {
-    "services": [
-      "HandlerService",
-      "LoggerService",
-      "StatsService"
+    "policy":{
+        "levels":{
+            "1":{
+                "handshake":4,
+                "connIdle":300,
+                "uplinkOnly":2,
+                "downlinkOnly":5,
+                "statsUserUplink":false,
+                "statsUserDownlink":false
+            }
+        },
+        "system":{
+            "statsInboundUplink":true,
+            "statsInboundDownlink":true
+        }
+    },
+    "allocate":{
+        "strategy":"always",
+        "refresh":5,
+        "concurrency":3
+    },
+    "inbounds":[
+        {
+            "port":8080,
+            "protocol":"vmess",
+            "settings":{
+                "clients":[
+                    {
+                        "id":"de8164d8-06f7-467c-99fe-c61b034d328c",
+                        "alterId":0,
+                        "level":1
+                    }
+                ]
+            },
+            "streamSettings":{
+                "network":"ws",
+                "wsSettings":{
+                    "path":"/xz"
+                }
+            }
+        }
     ],
-    "tag": "api"
-  },
-  "stats": {},
-  "reverse": null,
-  "fakeDns": null
+    "outbounds":[
+        {
+            "protocol":"freedom",
+            "settings":{
+
+            }
+        }
+    ],
+    "routing":{
+        "settings":{
+            "rules":[
+                {
+                    "inboundTag":[
+                        "api"
+                    ],
+                    "outboundTag":"api",
+                    "type":"field"
+                }
+            ]
+        },
+        "strategy":"rules"
+    }
 }
