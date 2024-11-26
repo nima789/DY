@@ -1,8 +1,14 @@
 {
   "lives":[
-    {"name":"斯玛特","type":0,"url":"https://tang.hz.cz/zb/stv?token=0e811827"},
+    {"name":"mytv","type":0,"url":"https://iptv.yanjin.gq/tv.m3u"},
+    {"name":"wltv1","type":0,"url":"https://iptv.887979.xyz/tv.m3u"},
+    {"name":"wltv2","type":0,"url":"https://iptv.gioe.eu.org/tv.m3u"},
+    {"name":"yanG电视","type":0,"url":"https://tv.iill.top/m3u/Gather"},
+    {"name":"yanG网络","type":0,"url":"https://tv.iill.top/m3u/Live"},
+    {"name":"yanG体育","type":0,"url":"https://tv.iill.top/m3u/Sport"},
+    {"name":"yanGMYTV","type":0,"url":"https://tv.iill.top/m3u/MyTV"},
+    {"name":"安博","type":0,"url":"https://r2.huahuayu.gq/tv/abtv.txt"},
     {"name":"selive","type":0,"url":"http://www.yanjin.gq/zb/live.txt"},
-    {"name":"selive2","type":0,"url":"http://www.yanjin.cf/live.txt"},
-    {"name":"sese1","type":0, "url":"https://tv.iill.top/m3u/Adult" }
+    {"name":"selive2","type":0,"url":"http://www.yanjin.cf/live.txt"}
   ]
 }
