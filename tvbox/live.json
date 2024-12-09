@@ -1,8 +1,7 @@
 {
   "lives":[
-    {"name":"mytv","type":0,"url":"https://iptv.yanjin.gq/tv.m3u"},
+    {"name":"mytv","type":0,"url":"https://tv.xztv.run.place/tv.m3u"},
     {"name":"wltv1","type":0,"url":"https://iptv.887979.xyz/tv.m3u"},
-    {"name":"wltv2","type":0,"url":"https://iptv.gioe.eu.org/tv.m3u"},
     {"name":"yanG电视","type":0,"url":"https://tv.iill.top/m3u/Gather"},
     {"name":"yanG网络","type":0,"url":"https://tv.iill.top/m3u/Live"},
     {"name":"yanG体育","type":0,"url":"https://tv.iill.top/m3u/Sport"},
